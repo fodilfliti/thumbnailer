@@ -13,7 +13,11 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   font_awesome_flutter: ^10.2.1
-  pdfx: ^2.3.0
+  pdfx: 
+   git:
+    url: 'https://github.com/ScerIO/packages.flutter' 
+    ref: '4be9de9ffed5398fd7d5f44bbb07dcd3d3f1711b'  
+    path: packages/pdfx
   spreadsheet_decoder: ^2.1.1
 
 dev_dependencies:
